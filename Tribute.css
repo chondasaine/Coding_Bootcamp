@@ -1,0 +1,125 @@
+﻿/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+.main-image {
+   border: solid 4px black;
+   border-radius: 50%; 
+   rotate: 45%; 
+   padding-top:30px;  
+}
+
+h1 {
+ background-color: #e2e2e2; 
+ padding: 5px;  
+}
+
+.section-title {
+    text-transform: capitalize;
+    text-align: center;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 15px;
+  float: right;
+}
+.nav li {
+  padding:5px 10px 10px 10px;
+}
+.nav a:hover {
+  color: white
+}
+header {
+  text-align: center;
+  background: url('../../Tribute_Page/Photos/CLE.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+.container {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.container:hover {
+  border-color: #ff99ff;
+}
+/* flex:direction: defines a flex container inline or block that enables a flex context for all directions.  This is what moves my boxes side by side */
+.flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+  a.social {
+  display: inline-block;
+  list-style-type: none;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  transition: all .25s;
+}
+  footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+} 
+  footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}  
+    
+a.twitter {
+  background-image: url('../../Tribute_Page/Photos/twitter.jpg');
+}
+a.linkedin {
+  background-image: url('../../Tribute_Page/Photos/linkedin.png');
+}
+a.instagram {
+  background-image: url('../../Tribute_Page/Photos/instagram.jpg');
+}
+a.social:hover {
+  opacity: .5;
+}
+.copyright {
+    font-size:xx-small
+}
+  
+
+
